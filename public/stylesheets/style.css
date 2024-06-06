@@ -18,8 +18,8 @@ html,body{
     justify-content: center;
 }
 .chessboard{
-    width: 70vw;
-    height: 70vw;
+    width: 45vw;
+    height: 45vw;
     display: grid;
     grid-template-rows: repeat(8,minmax(0,1fr));
     grid-template-columns: repeat(8,minmax(0,1fr));
@@ -49,7 +49,7 @@ html,body{
     background-color: #706677;
 }
 .piece{
-    font-size: 7vw;
+    font-size: 4vw;
     cursor: pointer;
 }
 .piece.draggable{
